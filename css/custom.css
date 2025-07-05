@@ -1,0 +1,156 @@
+/* FONT */
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+
+}
+
+
+.navbar-brand {
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-brand:hover {
+    color: white;
+    animation: pulse 1s;
+}
+
+
+.nav-link {
+    color: white;
+    margin-left: 1rem;
+    font-weight: 300;
+}
+
+
+
+
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background: rgba(255, 255, 255, 0);
+    /* Opcional: fundo semi-transparente para melhor legibilidade */
+}
+
+.imagem-banner {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+.contacto {
+    font-weight: 400;
+    font-size: 0.85rem;
+    padding: 0.65rem 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: rgba(160, 160, 160, 0.2);
+    /* Cor com opacidade */
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    backdrop-filter: blur(5px);
+    /* Efeito blur no fundo */
+    -webkit-backdrop-filter: blur(5px);
+    /* Compatibilidade Safari */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* Opcional: ligeiro contorno para destacar */
+    transition: all 0.3s ease;
+    /* Transição suave para hover */
+}
+
+.iconcontacto {
+    font-size: 0.65rem;
+}
+
+.contacto:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(29, 48, 21);
+    animation: pulse 2s;
+}
+
+.banner-conteudo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 5;
+}
+
+
+.h1,
+h1 {
+    font-size: 5rem;
+}
+
+
+
+.contacto2 {
+    font-weight: 300;
+    font-size: 0.85rem;
+    padding: 0.65rem 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #C1C033;
+    /* Cor com opacidade */
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    /* Transição suave para hover */
+}
+
+.contacto2:hover {
+    background-color: rgba(160, 160, 160, 0.2);
+    /* Cor com opacidade */
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    backdrop-filter: blur(5px);
+    /* Efeito blur no fundo */
+    -webkit-backdrop-filter: blur(5px);
+    /* Compatibilidade Safari */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* Opcional: ligeiro contorno para destacar */
+    transition: all 0.3s ease;
+    /* Transição suave para hover */
+}
+
+
+/* SECTION QUEM SOMOS*/
+
+.sectionabout{
+    margin-top: 12rem!important;
+}
+.quemsomosh4 {
+    font-family: "Quattrocento", serif;
+    color: #C1C033;
+}
+.quemsomosh2{
+    color: #3B4A25;
+    font-weight: 700;
+}
+
+.quintas{
+    font-family: "Quattrocento", serif;
+    color: #C1C033;
+    font-size: 1rem;   
+}
+
+.imagequinta{
+
+    border-radius: 8rem;
+    border-color: #C1C033;
+}
